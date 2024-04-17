@@ -155,7 +155,7 @@
         - igw_out.gateway_id
         - pubRT_out.route_table.id
         - NATGW_out.nat_gateway_id
-        - privRT_out.route_table.id+
+        - privRT_out.route_table.id
 
     - set_fact:
         vpcid: "{{vpcout.vpc.id}}"
